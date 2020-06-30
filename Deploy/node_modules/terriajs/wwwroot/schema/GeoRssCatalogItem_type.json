@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "options": {
+        "hidden": true
+      },
+      "type": "string",
+      "enum": [
+        "georss"
+      ]
+    }
+  },
+  "description": "A CatalogItem representing GeoRSS data.",
+  "title": "GeoRSS",
+  "allOf": [
+    {
+      "$ref": "CatalogItem.json"
+    },
+    {
+      "$ref": "CatalogMember.json"
+    },
+    {
+      "$ref": "GeoRssCatalogItem.json"
+    }
+  ]
+}

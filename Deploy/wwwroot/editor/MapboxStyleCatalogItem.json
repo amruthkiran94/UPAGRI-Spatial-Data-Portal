@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "defaultProperties": [
+    "name",
+    "type",
+    "url"
+  ],
+  "properties": {
+    "username": {
+      "type": "string",
+      "title": "Username",
+      "description": "The username of the map account.\n[optional]"
+    },
+    "styleId": {
+      "type": "string",
+      "title": "Style ID",
+      "description": "The Mapbox Style ID."
+    },
+    "accessToken": {
+      "type": "string",
+      "title": "Access token",
+      "description": "The public access token for the imagery.\n[optional]"
+    },
+    "tilesize": {
+      "type": "number",
+      "title": "Tilesize",
+      "description": "The size of the image tiles.\n[optional]"
+    },
+    "scaleFactor": {
+      "type": "boolean",
+      "title": "Scale factor",
+      "description": "Determines if tiles are rendered at a @2x scale factor.\n[optional]",
+      "format": "checkbox"
+    },
+    "minimumLevel": {
+      "type": "number",
+      "title": "Minimum level",
+      "description": "The minimum level-of-detail supported by the imagery provider. Take care when specifying this that the number of tiles at the minimum level is small, such as four or less. A larger number is likely to result in rendering problems.\n[optional]"
+    },
+    "maximumLevel": {
+      "type": "number",
+      "title": "Maximum level",
+      "description": "The maximum level-of-detail supported by the imagery provider, or undefined if there is no limit.\n[optional]"
+    },
+    "rectangle": {
+      "type": "array",
+      "title": "Rectangle",
+      "description": "The rectangle, in radians, covered by the image.\n[optional]",
+      "format": "table",
+      "items": {
+        "type": [
+          "number",
+          "string"
+        ]
+      },
+      "options": {
+        "collapsed": true,
+        "disable_array_reorder": true
+      },
+      "maxItems": 4,
+      "minItems": 2
+    },
+    "credit": {
+      "type": "string",
+      "title": "Credit",
+      "description": "A credit for the data source, which is displayed on the canvas\n[optional]"
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "CatalogItem.json"
+    },
+    {
+      "$ref": "ImageryLayerCatalogItem.json"
+    },
+    {
+      "$ref": "CatalogMember.json"
+    }
+  ]
+}

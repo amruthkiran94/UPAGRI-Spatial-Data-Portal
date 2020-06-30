@@ -1,0 +1,39 @@
+{
+  "homeCamera": {
+		"lookAt": {
+        "targetLongitude":77.59026,
+        "targetLatitude": 12.977913,
+        "targetHeight": 10000,
+        "heading": 0,
+        "pitch": 90,
+        "range": 5000,
+    }
+  },
+  "catalog": [
+    {
+      "name": "Raster (Imagery)",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": 
+	  [
+	  
+	  {
+          "layers": "Bengaluru:200522_Bengaluru_LandCover_2001",
+          "url": "http://localhost:8080/geoserver/Bengaluru/200522_Bengaluru_LandCover_2001/ows?service=WMS&request=GetCapabilities",
+          "type": "wms",
+          "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)\n\n[nfrip@ga.gov.au](mailto:nfrip@ga.gov.au)",
+          "name": "Landcover",
+          "dataUrlType": "direct",
+          "dataUrl": "http://localhost:8080/geoserver/Bengaluru/wms/Bengaluru:200522_Bengaluru_LandCover_2001",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+      ]
+    },	
+  ]
+}
