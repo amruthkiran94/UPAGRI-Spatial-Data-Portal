@@ -1,0 +1,139 @@
+{
+  "baseMapName": "Positron (Light)",
+  "homeCamera": {
+    "lookAt": {
+      "targetLongitude": 77.59026,
+      "targetLatitude": 12.977913,
+      "targetHeight": 10000,
+      "heading": 0,
+      "pitch": 90,
+      "range": 5000
+  }
+},
+  
+"catalog": [
+    {
+      "name": "Landcover",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": [
+        {
+          "layers": "Bengaluru:Bengaluru_LandCover_2001",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2001",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+		{
+          "layers": "Bengaluru:Bengaluru_LandCover_2011",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2011",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+		{
+          "layers": "Bengaluru:Bengaluru_LandCover_2020",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2020",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        }
+      ]
+    },
+	
+	{
+      "name": "Land Surface Temperature (LST)",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": [
+        {
+          "layers": "Bengaluru:200623_Bengaluru_LST_Jan11-Jan98_Ra_30m_UTM43N_DM_V1",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2011-1998",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+		{
+          "layers": "Bengaluru:200623_Bengaluru_LST_Jan20-Jan11_Ra_30m_UTM43N_DM_V1",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2020-2011",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+		{
+          "layers": "Bengaluru:200618_Bengaluru_LST_Jan20-Jan98_Ra_30m_UTM43N_DM_V1",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2020-1998",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "name": "Builtup Growth",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": [
+        {
+          "layers": "Bengaluru:200630_Bengaluru_Built-up_Growth_Ra_30m_UTM43N_DM_V1",
+          "url": "http://localhost:8080/geoserver/Bengaluru/wms",
+          "type": "wms",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "2011-1998",
+          "dataUrlType": "direct",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+      ]
+    },
+  ]
+}

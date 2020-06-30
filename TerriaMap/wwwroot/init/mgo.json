@@ -1,0 +1,40 @@
+{
+  "homeCamera": {
+		"lookAt": {
+        "targetLongitude": 37.669373,
+        "targetLatitude": -6.814711,
+        "targetHeight": 3000,
+        "heading": 0,
+        "pitch": 90,
+        "range": 5000,
+    }
+  },
+  "catalog": [
+    {
+      "name": "Raster (Imagery)",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": 
+	  [
+	  
+	  {
+          
+          "url": "http://localhost:8080/geoserver/Morogoro/wms",
+          "type": "wms-getCapabilities",
+          "dataCustodian": "[Geospatial Lab, Indian Institute for Human Settelments](http://http://iihs.co.in/research/labs/geospatial-lab/)\n\n[geospatial.lab@iihs.ac.in](mailto:geospatial.lab@iihs.ac.in)",
+          "name": "Landcover",
+          "dataUrlType": "direct",
+          
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+      ]
+    },
+
+  ]
+}
